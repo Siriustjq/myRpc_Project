@@ -13,6 +13,7 @@
         <module>rpc_common</module>
         <module>rpc_core</module>
         <module>test_client</module>
+        <module>test_server</module>
     </modules>
 
 

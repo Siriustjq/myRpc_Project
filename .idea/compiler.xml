@@ -10,6 +10,7 @@
         <module name="test_client" />
         <module name="rpc_api" />
         <module name="rpc_common" />
+        <module name="test_server" />
       </profile>
     </annotationProcessing>
   </component>
