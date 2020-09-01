@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2b3e8246-b0b9-46ba-9487-d74318bc335b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/entity/RpcRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/entity/RpcRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcClientProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/WorkerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/WorkerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc_core/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,18 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/WorkerThread.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,50 +45,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="237" column="11" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="11" />
-              <folding>
-                <element signature="e#6812#6813#0" expanded="true" />
-                <element signature="e#6849#6850#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_client/src/main/java/top/tjq/test/TestClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,22 +57,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+        <entry file="file://$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/ServiceRegistry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/HelloServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/TestServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/registry/DafaultServiceRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/enumer/RpcError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/TestServer.java">
+        <entry file="file://$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/exception/RpcException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="2118" column="44" selection-start-line="2118" selection-start-column="44" selection-end-line="2118" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -163,12 +168,16 @@
         <option value="$PROJECT_DIR$/rpc_api/src/main/java/top/tjq/api/HelloObject.java" />
         <option value="$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/TestServer.java" />
         <option value="$PROJECT_DIR$/test_client/src/main/java/top/tjq/test/TestClient.java" />
-        <option value="$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/HelloServiceImpl.java" />
         <option value="$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/entity/RpcRequest.java" />
         <option value="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcClientProxy.java" />
         <option value="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcClient.java" />
         <option value="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/RpcServer.java" />
         <option value="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/WorkerThread.java" />
+        <option value="$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/ServiceRegistry.java" />
+        <option value="$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/enumer/RpcError.java" />
+        <option value="$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/exception/RpcException.java" />
+        <option value="$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/registry/DafaultServiceRegistry.java" />
       </list>
     </option>
   </component>
@@ -290,6 +299,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="enumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myrpc_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myprc_project" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myrpc_project" type="b2602c69:ProjectViewProjectNode" />
@@ -477,7 +496,7 @@
       <workItem from="1598192463681" duration="3358000" />
       <workItem from="1598279739500" duration="2217000" />
       <workItem from="1598449654373" duration="25000" />
-      <workItem from="1598883684853" duration="4035000" />
+      <workItem from="1598883684853" duration="8968000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1598161113815</created>
@@ -514,11 +533,18 @@
       <option name="project" value="LOCAL" />
       <updated>1598883989591</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="部分优化">
+      <created>1598929254399</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598929254400</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17050000" />
+    <option name="totallyTimeSpent" value="21983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -533,7 +559,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -560,7 +586,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="部分优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分优化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/startdemo.java">
@@ -633,16 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -769,6 +786,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_client/src/main/java/top/tjq/test/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/ServiceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rpc_api/src/main/java/top/tjq/api/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -776,22 +820,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_client/src/main/java/top/tjq/test/TestClient.java">
+    <entry file="file://$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_server/src/main/java/top/tjq/test/TestServer.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="155">
+          <caret line="2118" column="44" selection-start-line="2118" selection-start-column="44" selection-end-line="2118" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/enumer/RpcError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc_core/src/main/java/top/tjq/client/registry/DafaultServiceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc_common/src/main/java/top/tjq/common/exception/RpcException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -846,7 +922,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test_client</last-edited>
+          <last-edited>test_server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
