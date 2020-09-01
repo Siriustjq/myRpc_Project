@@ -10,6 +10,7 @@ import java.util.concurrent.*;
 
 /**
  * Create by moling_tjq on 2020-08-23
+ * 创建线程池对服务请求进行处理
  */
 public class RpcServer {
     private final ExecutorService threadPool;

@@ -12,6 +12,7 @@ import java.net.Socket;
 
 /**
  * Create by moling_tjq on 2020-08-23
+ * 创建工作线程对实际的请求进行处理并返回结果
  */
 public class WorkerThread implements Runnable{
     private static final Logger logger = LoggerFactory.getLogger(WorkerThread.class);

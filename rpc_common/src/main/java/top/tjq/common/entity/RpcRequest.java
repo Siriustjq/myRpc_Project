@@ -8,7 +8,7 @@ import java.io.Serializable;
 /**
  * Create by moling_tjq on 2020-08-23
  *
- * 封装基本的rpc请求参数
+ * 封装基本的rpc请求参数，可以理解为rpc传输协议的雏形
  */
 @Data
 @Builder
