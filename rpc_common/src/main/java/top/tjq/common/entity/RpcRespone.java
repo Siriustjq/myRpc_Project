@@ -2,6 +2,7 @@ package entity;
 
 import enumer.ResponeCode;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
@@ -11,7 +12,13 @@ import java.io.Serializable;
  * 用于封装一些基本的rpc调用结果
  */
 @Data
+
 public class RpcRespone<T> implements Serializable{
+
+    /**
+     * 无参构造函数
+     */
+    public RpcRespone(){};
     /**
      * 服务调用状态码
      */

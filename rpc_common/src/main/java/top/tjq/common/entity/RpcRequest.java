@@ -1,5 +1,6 @@
 package entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
@@ -11,7 +12,7 @@ import java.io.Serializable;
  * 封装基本的rpc请求参数，可以理解为rpc传输协议的雏形
  */
 @Data
-@Builder
+@AllArgsConstructor
 public class RpcRequest implements Serializable{
     /**
      * rpc请求的接口名称
@@ -32,4 +33,9 @@ public class RpcRequest implements Serializable{
      * rpc请求的参数类型
      */
     private Class<?>[] paramType;
+
+    /**
+     * 构造函数
+     */
+    public RpcRequest() {};
 }

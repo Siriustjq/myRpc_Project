@@ -1,5 +1,8 @@
 package top.tjq.client;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -9,12 +12,12 @@ import java.lang.reflect.Proxy;
  * 利用代理类去生成目标的调用
  */
 public class RpcClientProxy implements InvocationHandler{
-    private String host;
-    private int port;
+    private static Logger logger = LoggerFactory.getLogger(RpcClientProxy.class);
 
-    public RpcClientProxy(String host, int port) {
-        this.host = host;
-        this.port = port;
+    private final RpcClient client;
+
+    public RpcClientProxy(RpcClient client) {
+        this.client = client;
     }
 
     @SuppressWarnings("unchecked")
@@ -34,13 +37,9 @@ public class RpcClientProxy implements InvocationHandler{
      */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        entity.RpcRequest rpcRequest = entity.RpcRequest.builder()
-                .interfaceName(method.getDeclaringClass().getName())
-                .methodName(method.getName())
-                .parameters(args)
-                .paramType(method.getParameterTypes())
-                .build();
-        RpcClient rpcClient = new RpcClient();
-        return ((entity.RpcRespone) rpcClient.sendRequest(rpcRequest, host, port)).getData();
+        logger.info("调用方法: {}#{}", method.getDeclaringClass().getName(), method.getName());
+        entity.RpcRequest rpcRequest = new entity.RpcRequest(method.getDeclaringClass().getName(),
+                method.getName(), args, method.getParameterTypes());
+        return client.sendRequest(rpcRequest);
     }
 }
