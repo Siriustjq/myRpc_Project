@@ -13,6 +13,7 @@ import top.tjq.client.code.CommonEncoder;
 import top.tjq.client.netty.NettyClientHandler;
 import top.tjq.client.serializer.CommonDecoder;
 import top.tjq.client.serializer.JsonSerializer;
+import top.tjq.client.serializer.fastJsonSerializer;
 
 /**
  * Create by moling_tjq on 2020-09-04
@@ -66,7 +67,9 @@ public class NettyClient implements RpcClient{
                     }
                 });
                 channel.closeFuture().sync();
+
                 AttributeKey<entity.RpcRespone> key = AttributeKey.valueOf("rpcResponse");
+
                 entity.RpcRespone rpcResponse = channel.attr(key).get();
                 return rpcResponse.getData();
             }

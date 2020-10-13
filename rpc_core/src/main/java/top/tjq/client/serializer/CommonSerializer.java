@@ -15,6 +15,8 @@ public interface CommonSerializer {
         switch (code) {
             case 1:
                 return new JsonSerializer();
+            case 2:
+                return new fastJsonSerializer();
             default:
                 return null;
         }

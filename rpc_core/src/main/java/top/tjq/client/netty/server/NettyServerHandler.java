@@ -23,7 +23,7 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<entity.RpcRe
         requestHandler = new RequestHandler();
         serviceRegistry = new DafaultServiceRegistry();
     }
-    //当有读取事件触发时（即服务端返回给客户端信息时），触发该方法
+    //当有读取事件触发时（即服务端收到客户端发送的消息时），触发该方法
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, entity.RpcRequest msg) throws Exception {
         try {

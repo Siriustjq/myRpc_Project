@@ -13,6 +13,7 @@ import top.tjq.client.RpcServer;
 import top.tjq.client.code.CommonEncoder;
 import top.tjq.client.serializer.CommonDecoder;
 import top.tjq.client.serializer.JsonSerializer;
+import top.tjq.client.serializer.fastJsonSerializer;
 
 /**
  * Create by moling_tjq on 2020-09-04
@@ -38,7 +39,9 @@ public class NettyServer implements RpcServer {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ChannelPipeline pipeline = ch.pipeline();
+
                             pipeline.addLast(new CommonEncoder(new JsonSerializer()));
+                            //pipeline.addLast(new CommonEncoder(new fastJsonSerializer()));
                             pipeline.addLast(new CommonDecoder());
                             pipeline.addLast(new NettyServerHandler());
                         }

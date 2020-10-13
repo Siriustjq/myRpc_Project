@@ -12,7 +12,9 @@ public enum SerializerCode {
 
 
 
-        JSON(1);
+        JSON(1),
+
+        FASTJSON(2);
 
         private final int code;
 
