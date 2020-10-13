@@ -31,6 +31,9 @@ public class NettyClient implements RpcClient{
     }
 
     static {
+        /**
+         * NioEventLoopGroup 是用来处理I/O操作的多线程事件循环器，Netty提供了许多不同的EventLoopGroup的实现用来处理不同传输协议。
+         */
         EventLoopGroup group = new NioEventLoopGroup();
         bootstrap = new Bootstrap();
         bootstrap.group(group)

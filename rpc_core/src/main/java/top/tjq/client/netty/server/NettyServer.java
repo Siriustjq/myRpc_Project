@@ -31,8 +31,8 @@ public class NettyServer implements RpcServer {
             serverBootstrap.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
-                    .option(ChannelOption.SO_BACKLOG, 256)
-                    .option(ChannelOption.SO_KEEPALIVE, true)
+                    .option(ChannelOption.SO_BACKLOG, 256)//设置线程队列等待连接个数
+                    .option(ChannelOption.SO_KEEPALIVE, true)// 设置保持活动链接状态
                     .childOption(ChannelOption.TCP_NODELAY, true)
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override

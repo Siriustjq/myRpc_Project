@@ -15,7 +15,7 @@ import top.tjq.client.registry.DafaultServiceRegistry;
  * Create by moling_tjq on 2020-09-04
  */
 public class NettyServerHandler extends SimpleChannelInboundHandler<entity.RpcRequest> {
-    private static final Logger logger = LoggerFactory.getLogger(NettyServerHandler.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(NettyServerHandler.class);
     private static RequestHandler requestHandler;
     private static ServiceRegistry serviceRegistry;
 
@@ -23,11 +23,11 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<entity.RpcRe
         requestHandler = new RequestHandler();
         serviceRegistry = new DafaultServiceRegistry();
     }
-
+    //当有读取事件触发时（即服务端返回给客户端信息时），触发该方法
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, entity.RpcRequest msg) throws Exception {
         try {
-            logger.info("服务器接收到请求: {}", msg);
+            LOGGER.info("服务器接收到请求: {}", msg);
             String interfaceName = msg.getInterfaceName();
             Object service = serviceRegistry.getService(interfaceName);
             Object result = requestHandler.handle(msg, service);
@@ -37,10 +37,10 @@ public class NettyServerHandler extends SimpleChannelInboundHandler<entity.RpcRe
             ReferenceCountUtil.release(msg);
         }
     }
-
+    //异常捕获
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-        logger.error("处理过程调用时有错误发生:");
+        LOGGER.error("处理过程调用时有错误发生:");
         cause.printStackTrace();
         ctx.close();
     }

@@ -13,6 +13,7 @@ import java.util.List;
 
 /**
  * Create by moling_tjq on 2020-09-04
+ * 用于解码的类
  */
 public class CommonDecoder extends ReplayingDecoder {
     private static final Logger logger = LoggerFactory.getLogger(CommonDecoder.class);
